@@ -18,7 +18,7 @@ public class Triangle implements Shape {
     }
 
     @Override
-    public double area() {return perimeter()  / 2; }
+    public double area() {return perimeter() / 2; }
 
     public static void main(String[] args) {
         

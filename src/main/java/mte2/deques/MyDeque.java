@@ -7,14 +7,17 @@ package mte2.deques;
 // import java.util.LinkedList;
 // import java.util.Iterator;
 
-public class MyDeque {
-// public class MyDeque<E> implements Deque<E> {
+//public class MyDeque {
+public class MyDeque<E> implements Deque<E> {
     
-    // private final LinkedList<E> list;
-    // public MyDeque() {    list = new LinkedList<>();    }
+    private final LinkedList<E> list;
+    public MyDeque() {    list = new LinkedList<>();    }
 
     // ... for enqueueFront ...
-
+    @Override
+    public void enqueueFront(E element) {
+        
+    }
     // ... for enqueueBack ...
 
     // ... for dequeueFront ...
